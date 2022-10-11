@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int n;
+	cin>>n;
+	int row=1;
+	while(row<=n){
+		int col=1;
+		int temp=row;
+		while(col<=row){
+			cout<<temp;
+			col=col+1;
+			temp=temp+1;
+		}
+		row=row+1;
+		cout<<endl;
+	}
+}
